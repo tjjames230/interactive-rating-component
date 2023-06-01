@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#card-ctn {
+  width: 85%;
+  max-width: 375px;
+  background: linear-gradient(#222933, #171e28);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 25px;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: hsl(218, 16%, 23%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-star {
+  color: hsl(25, 97%, 53%);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 1.6em;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+#numbers {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  width: 100%;
+}
+
+button {
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
