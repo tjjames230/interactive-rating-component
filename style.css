@@ -42,6 +42,17 @@ body {
   justify-content: center;
 }
 
+.circle-hover:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  cursor: pointer;
+}
+
+.circle-gray {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
 .fa-star {
   color: hsl(25, 97%, 53%);
 }
@@ -77,4 +88,10 @@ button {
   font-family: "Overpass", sans-serif;
   font-size: 15px;
   letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
