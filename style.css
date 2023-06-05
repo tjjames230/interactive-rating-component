@@ -43,14 +43,9 @@ body {
 }
 
 .circle-hover:hover {
-  background-color: hsl(25, 97%, 53%);
+  background-color: hsl(25, 97%, 53%) !important;
   color: #fff;
   cursor: pointer;
-}
-
-.circle-gray {
-  background-color: hsl(217, 12%, 63%);
-  color: #fff;
 }
 
 .fa-star {
