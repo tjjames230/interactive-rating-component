@@ -26,7 +26,7 @@
 
   <body>
     <!-- First card -->
-    <main id="card-ctn">
+    <main id="first-card-ctn">
       <div class="circle">
         <i class="fa-solid fa-star fa-sm"></i>
       </div>
@@ -42,9 +42,21 @@
         <button class="circle circle-hover" id="4">4</button>
         <button class="circle circle-hover" id="5">5</button>
       </div>
+      <p id="warning">Please select a number before submitting!</p>
       <button id="btn">SUBMIT</button>
     </main>
 
     <!-- Second card (after submit) -->
+    <main id="second-card-ctn">
+      <img src="./images/illustration-thank-you.svg" />
+      <div id="result-bg">
+        <p class="new-body">You Selected <span id="result">0</span> out of 5</p>
+      </div>
+      <h1 id="thank-you">Thank you!</h1>
+      <p class="new-body" id="thankyou-body">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </main>
   </body>
 </html>

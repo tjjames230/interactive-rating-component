@@ -21,7 +21,8 @@ body {
   min-height: 100vh;
 }
 
-#card-ctn {
+#first-card-ctn,
+#second-card-ctn {
   width: 85%;
   max-width: 375px;
   background: linear-gradient(#222933, #171e28);
@@ -30,6 +31,10 @@ body {
   flex-direction: column;
   padding: 25px;
   gap: 25px;
+}
+
+#second-card-ctn {
+  display: none;
 }
 
 .circle {
@@ -89,4 +94,42 @@ button:hover {
   background-color: #fff;
   color: hsl(25, 97%, 53%);
   cursor: pointer;
+}
+
+img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.new-body {
+  margin-top: 0;
+  text-align: center;
+}
+
+#thank-you {
+  text-align: center;
+}
+
+#result-bg {
+  background-color: hsl(218, 16%, 23%);
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+#result-bg p {
+  color: hsl(25, 97%, 53%);
+  padding: 3px;
+}
+
+#thankyou-body {
+  margin-top: -10px;
+}
+
+#warning {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  display: none;
+  margin-bottom: -25px;
 }
